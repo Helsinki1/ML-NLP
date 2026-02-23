@@ -1,0 +1,60 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            32o0ltvf384ry1otvx9syebarcwheuzz:
+                codePath: word2vec/train.py
+                codePathLocal: train.py
+                cpu_count: 14
+                cpu_count_logical: 20
+                disk:
+                    /:
+                        total: "205952098304"
+                        used: "185084387328"
+                email: davidxionghl@gmail.com
+                executable: /usr/bin/python3
+                git:
+                    commit: 64adbe5dc7ea44b92efe625dd5a4661e58be80a6
+                    remote: git@github.com:Helsinki1/ML-NLP.git
+                host: davidx-XPS-15
+                memory:
+                    total: "16422367232"
+                os: Linux-6.8.0-79-generic-x86_64-with-glibc2.35
+                program: /home/davidx/Downloads/ML-NLP/word2vec/train.py
+                python: CPython 3.10.12
+                root: /home/davidx/Downloads/ML-NLP/word2vec
+                startedAt: "2026-02-23T07:02:22.096836Z"
+                writerId: 32o0ltvf384ry1otvx9syebarcwheuzz
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 49
+                - 51
+                - 53
+                - 105
+            "2":
+                - 1
+                - 5
+                - 49
+                - 51
+                - 53
+                - 105
+            "3":
+                - 16
+            "4": 3.10.12
+            "5": 0.25.0
+            "12": 0.25.0
+            "13": linux-x86_64
+batch_size:
+    value: 100
+embedding_dim:
+    value: 64
+learning_rate:
+    value: 0.001
+num_epochs:
+    value: 10
+vocab_size:
+    value: 5001

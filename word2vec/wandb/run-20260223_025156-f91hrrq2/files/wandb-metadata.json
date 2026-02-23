@@ -1,0 +1,28 @@
+{
+  "os":  "Linux-6.8.0-79-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.12",
+  "startedAt":  "2026-02-23T07:51:56.375281Z",
+  "program":  "/home/davidx/Downloads/ML-NLP/word2vec/train.py",
+  "codePath":  "word2vec/train.py",
+  "codePathLocal":  "train.py",
+  "git":  {
+    "remote":  "git@github.com:Helsinki1/ML-NLP.git",
+    "commit":  "64adbe5dc7ea44b92efe625dd5a4661e58be80a6"
+  },
+  "email":  "davidxionghl@gmail.com",
+  "root":  "/home/davidx/Downloads/ML-NLP/word2vec",
+  "host":  "davidx-XPS-15",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  14,
+  "cpu_count_logical":  20,
+  "disk":  {
+    "/":  {
+      "total":  "205952098304",
+      "used":  "185051672576"
+    }
+  },
+  "memory":  {
+    "total":  "16422367232"
+  },
+  "writerId":  "gjfq9ayrtpt6nkjxyqcosnlixrml459h"
+}

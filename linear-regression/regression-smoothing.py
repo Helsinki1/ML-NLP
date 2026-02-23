@@ -14,7 +14,7 @@ Y = np.tile(np.sin(12 * (x + 0.2)) / (x + 0.2), [M,1]) + np.random.normal(0, 1, 
 # Step 1
 
 # cub spline regression
-knots = np.array([i for i in range(0, 1, 0.1)])
+knots = np.array([i for i in np.arange(0, 1, 0.1)])
 
 def data_matrix(x):
     x = np.asarray(x).ravel()
