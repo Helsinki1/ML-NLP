@@ -1,8 +1,0 @@
-numpy
-torch
-datasets
-wandb
-tqdm
-matplotlib
-scikit-learn
-transformers

@@ -66,7 +66,16 @@ def mask_random_tokens(sentences, tokenizer, num_masks_per_sentence=1):
         masked_positions = []
         masked_sentence = ''
         ground_truth = []
-        
+
+        for i in range(num_masks_per_sentence):
+            pos = random.choice(valid_positions)
+            masked_positions.append(pos)
+            ground_truth.append(tokenizer.decode([input_ids[pos]]))
+            valid_positions.remove(pos)
+            input_ids[pos] = tokenizer.mask_token_id
+
+        masked_sentence = tokenizer.decode(input_ids)  # does this actually write [MASK] ?
+
         ############################################################
         # STUDENT IMPLEMENTATION END
         ############################################################
@@ -118,7 +127,26 @@ def predict_masked_tokens(masked_data, model, tokenizer, top_k=5):
             ############################################################
             top_k_predictions = []
 
-            
+            inputs = tokenizer(masked_sentence, return_tensors="pt")
+
+            with torch.no_grad():
+                outputs = model(**inputs)
+                logits = outputs.prediction_logits
+
+            sequence_ids = inputs.input_ids[0] # get sequence of token IDs
+            is_mask_token = (sequence_ids == tokenizer.mask_token_id) # create boolean tensor, w True if [MASK]
+            mask_coordinates = is_mask_token.nonzero(as_tuple=True) # find indices of [MASK] tokens
+            mask_indices_tensor = mask_coordinates[0]
+            mask_positions = mask_indices_tensor.tolist() # convert tensor to python list
+
+            for pos in mask_positions:
+                vocab_logits = logits[0, pos] # get 1D tensor of prediction scores for each word in BERT vocab
+                top_k_results = vocab_logits.topk(top_k, dim=0) # get k highest scores & token ids
+                top_k_indices_tensor = top_k_results.indices # indices tensor = list of token ids
+                top_k_tokens = top_k_indices_tensor.tolist() # convert tensor into python list
+
+                top_k_words = [tokenizer.decode([token]) for token in top_k_tokens]
+                top_k_predictions.append(top_k_words)
 
             ############################################################
             # STUDENT IMPLEMENTATION END
