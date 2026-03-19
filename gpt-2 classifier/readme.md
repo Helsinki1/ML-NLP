@@ -13,8 +13,6 @@ The data is compatible with the official GPT-2 tokenizer and token embeddings, s
 
 ### Understanding the Project Structure
 
-After downloading this homework assignment, unzip it with `unzip hw2.zip` and navigate to the `hw2` directory with `cd hw2`. Confirm that the following files are present:
-
 ```bash
 .
 ├── checkpoints
@@ -32,18 +30,10 @@ After downloading this homework assignment, unzip it with `unzip hw2.zip` and na
 │   └── train.py
 └── tests
     ├── conftest.py
-    └── hw2_test.py
+    └── test.py
 ```
 
-Create a new Python virtual environment and install the required dependencies:
-
-```bash
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-Next, take a look at the data in the `data` directory.
+Take a look at the data in the `data` directory.
 
 Each line of `data/openwebtext_1k_tokenized.jsonl` is a JSON object with the following format:
 
