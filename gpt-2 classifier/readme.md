@@ -1,11 +1,3 @@
-# COMS 4705 Spring 2026 Homework 2: Implement and Train Your Own GPT-2
-
-## Overview
-
-This homework has two parts: (1) implementing a **GPT-2 language model** from scratch, and (2) adapting that model to perform **text classification**.
-
-You will cover the following topics in your GPT-2 implementation:
-
 - Implementing a decoder-only transformer architecture from scratch using only Python and PyTorch, including:
     - Token and positional embeddings
     - Decoder-only Transformer blocks, including causal multi-head self-attention and MLP layers
@@ -15,23 +7,7 @@ You will cover the following topics in your GPT-2 implementation:
     - Key-value caching to speed up generation
     - Batched generation to produce multiple sequences in parallel
 - Verifying that your implementation can load the official PyTorch GPT-2 model checkpoint and is numerically consistent with the official GPT-2 implementation
-- **No need to implement a tokenizer.** We provide pre-tokenized data for all experiments. The data is compatible with the official GPT-2 tokenizer and token embeddings, so you can use the token IDs directly as input to your model.
-
-For the GPT-2-based text classification model, you will:
-
-- Add a classification head on top of the GPT-2 language model
-- Implement a training loop to fine-tune the GPT-2 classification model on the provided topic classification dataset
-- Evaluate the fine-tuned model on a held-out validation set and report the classification accuracy
-
-### No Hugging Face Transformers or Third-Party GPT-2 Implementations Allowed
-
-You may not use any existing transformer libraries (such as Hugging Face Transformers) or any other third-party GPT-2 implementations. Your model architecture and training loop must be implemented from scratch using only PyTorch and standard Python libraries. You may also not use any existing GPT-2 code from online sources, including GitHub repositories or the source code of transformer libraries. **AI tools are permitted** in this assignment.
-
-## Rationale
-
-We recognize that implementing and training a GPT-2 model from scratch is a significant undertaking. We have included this assignment because it covers the most fundamental aspects of modern NLP: all of today's state-of-the-art LLMs are variants of the decoder-only transformer architecture that GPT-2 pioneered. By building it yourself, you will gain hands-on mastery of the core building blocks underlying modern language models.
-
-We also want to remind everyone that this course explicitly allows the use of AI tools — including ChatGPT, Claude Code, Cursor, and GitHub Copilot — as long as you document their usage appropriately in your report. We encourage you to use these tools to deepen your understanding of the concepts covered here and to assist with implementation and debugging. Our goal is not only for you to understand the GPT-2 architecture and training process, but also for you to develop practical skills in using AI tools effectively.
+The data is compatible with the official GPT-2 tokenizer and token embeddings, so use the token IDs directly as input to your model.
 
 ## Getting Started
 
@@ -463,37 +439,3 @@ You will need to:
 Implement your training loop in `src/train.py`. You may define any helper functions or classes in `src/train.py` or in additional files under `src/`. You have full freedom in how you design the training loop, as long as it fine-tunes and saves the classification model and achieves the required validation accuracy. Any training techniques are permitted, provided they do not rely on external data or model weights.
 
 ---
-
-## Part 3: Report, Analysis, and Submission
-
-### PDF Report (20 Points)
-Include a report in PDF format named `report.pdf` at the **root level of the project folder**. Your report should contain the following sections:
-
-1. **Implementation Status:** Describe which parts of the assignment you completed successfully, which parts were attempted but incomplete or contain errors, and which parts you were unable to attempt. Include a screenshot of the output from `pytest tests/hw2_test.py -v`.
-
-2. **Training Techniques, Loss, and Validation Accuracy Curves:** Describe any training techniques you used to exceed 65% validation accuracy. Plot the training loss and validation accuracy curves using your TensorBoard or WandB logs (any plotting library is fine). Report the final validation accuracy.
-
-3. **Challenges and Solutions:** Describe any challenges you encountered during implementation or training and how you addressed them. This can include bugs, conceptual difficulties, lessons learned, or anything else you found notable. This is an open-ended question — there are no wrong answers.
-
-4. **AI Usage and Collaboration:** Describe how you used AI tools (e.g., ChatGPT, Claude Code, Cursor, GitHub Copilot) to assist with implementation or learning for this assignment. Also describe any collaboration with classmates. Use of AI tools is fully permitted and your answers will not affect your grade in any way.
-
-### Submission Guidelines
-Once you have completed all implementation and model training, as well as the report, run the full test suite to confirm your work one last time:
-
-```bash
-pytest tests/hw2_test.py -v
-```
-
-There are no hidden test cases — passing all tests in `hw2_test.py` means you have successfully completed all required components of this assignment.
-
-**Submission:** Compress the entire `hw2` directory into a zip file using the folowing command. Make sure your resulting `.zip` submission is smaller than 1.0 GB.
-
-```bash
-# Delete the checkpoint/gpt2_model.pth to reduce file size. 
-# This checkpoint file will be added back by our autograder.
-rm checkpoints/gpt2_model.pth
-
-zip -r hw2_yourUNI.zip hw2
-```
-
-Then, submit the assignment via this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScDGg-e2Bwgga70Jtj7jktDdABXruUrpA_m5ZfBK_FPC_hjIw/viewform?usp=header). 
