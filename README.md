@@ -16,5 +16,14 @@ The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoni
 
 Inverse Scaling in Test-Time Compute (https://arxiv.org/abs/2507.14417)
 
+HALOGEN: Fantastic LLM Hallucinations and Where to Find Them (https://aclanthology.org/2025.acl-long.71.pdf)
+
 
 DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (https://arxiv.org/pdf/2501.12948)
+
+RL - PPO & GRPO Blog (https://yugeten.github.io/posts/2025/01/ppogrpo/)
+
+GPT-2 paper (https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+
+- [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
+- [The Illustrated Transformer (general Transformer guide)](https://jalammar.github.io/illustrated-transformer/)
