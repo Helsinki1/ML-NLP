@@ -18,6 +18,8 @@ Inverse Scaling in Test-Time Compute (https://arxiv.org/abs/2507.14417)
 
 HALOGEN: Fantastic LLM Hallucinations and Where to Find Them (https://aclanthology.org/2025.acl-long.71.pdf)
 
+Can LLMs Keep A Secret? Testing Privacy Implications via Contextual Integrity Theory (https://arxiv.org/pdf/2310.17884)
+
 
 DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (https://arxiv.org/pdf/2501.12948)
 
