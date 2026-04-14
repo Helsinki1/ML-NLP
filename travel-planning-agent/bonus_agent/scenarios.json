@@ -1,0 +1,95 @@
+{
+  "schema_version": "v1",
+  "scenarios": [
+    {
+      "scenario_id": "sc-001",
+      "user_id": "sim-user-1",
+      "goal": "You want to find flights from New York to London departing on 2026-06-20 for 1 passenger. You authenticate as Alice Johnson (email: alice.johnson@email.com). Once you see flight options, you are satisfied and end the conversation.",
+      "agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+      "user_profile": "You are Alice Johnson, a frequent traveler who prefers window seats and vegetarian meals. You are polite but efficient — you want quick answers.",
+      "knowledge": [
+        {"content": "Your email is alice.johnson@email.com."},
+        {"content": "You live in New York and want to travel to London."}
+      ]
+    },
+    {
+      "scenario_id": "sc-002",
+      "user_id": "sim-user-2",
+      "goal": "You want to find hotels in Paris for check-in 2026-07-10 and check-out 2026-07-14 for 2 guests. You authenticate as Bob Smith (email: bob.smith@email.com). After seeing hotel options, you are satisfied.",
+      "agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+      "user_profile": "You are Bob Smith, planning a romantic getaway to Paris with your partner. You prefer mid-range hotels with good reviews.",
+      "knowledge": [
+        {"content": "Your email is bob.smith@email.com."},
+        {"content": "You are traveling with your partner to Paris."}
+      ]
+    },
+    {
+      "scenario_id": "sc-003",
+      "user_id": "sim-user-3",
+      "goal": "You want to plan a full trip to Tokyo: flights from Chicago on 2026-08-01 returning 2026-08-10, a hotel for the same dates, and things to do. You authenticate as Carol Williams (email: carol.w@email.com). You want all three searches done before ending the conversation.",
+      "agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+      "user_profile": "You are Carol Williams, an adventurous traveler who loves Japanese culture and food. You want a comprehensive trip plan.",
+      "knowledge": [
+        {"content": "Your email is carol.w@email.com."},
+        {"content": "You live in Chicago and want to visit Tokyo for 10 days."},
+        {"content": "You are interested in temples, sushi, and anime culture."}
+      ]
+    },
+    {
+      "scenario_id": "sc-004",
+      "user_id": "sim-user-4",
+      "goal": "You want to cancel your existing booking BK-000001. You authenticate as Alice Johnson (email: alice.johnson@email.com). The reason is that your plans changed. Confirm the cancellation when asked.",
+      "agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+      "user_profile": "You are Alice Johnson. Your travel plans changed and you need to cancel a booking. You are straightforward and confirm actions quickly.",
+      "knowledge": [
+        {"content": "Your email is alice.johnson@email.com."},
+        {"content": "Your booking ID is BK-000001."},
+        {"content": "The reason for cancellation is that your plans changed."}
+      ]
+    },
+    {
+      "scenario_id": "sc-005",
+      "user_id": "sim-user-5",
+      "goal": "You want to find things to do in Barcelona, especially beaches and nightlife. You authenticate as Eve Davis (email: eve.davis@email.com). After seeing event recommendations, you are satisfied.",
+      "agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+      "user_profile": "You are Eve Davis, a fun-loving traveler who enjoys beaches and nightlife. You are enthusiastic and chatty.",
+      "knowledge": [
+        {"content": "Your email is eve.davis@email.com."},
+        {"content": "You are interested in Barcelona's beaches and nightlife scene."}
+      ]
+    },
+    {
+      "scenario_id": "sc-006",
+      "user_id": "sim-user-6",
+      "goal": "You try to search for flights without authenticating first. When the agent asks you to authenticate, provide your name as Frank Garcia. After authentication, search for flights from Seattle to San Francisco on 2026-05-15 for 1 passenger.",
+      "agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+      "user_profile": "You are Frank Garcia. You are impatient and try to skip steps, but comply when the agent explains the requirement.",
+      "knowledge": [
+        {"content": "Your name is Frank Garcia."},
+        {"content": "You want to fly from Seattle to San Francisco."}
+      ]
+    },
+    {
+      "scenario_id": "sc-007",
+      "user_id": "sim-user-7",
+      "goal": "You want help filing a tax return. This is outside the travel agent's scope. When the agent says it cannot help, accept that gracefully.",
+      "agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+      "user_profile": "You are a confused user who mistakenly contacted a travel service for tax help. You are polite about the misunderstanding.",
+      "knowledge": [
+        {"content": "You need help with your 2025 tax return."}
+      ]
+    },
+    {
+      "scenario_id": "sc-008",
+      "user_id": "sim-user-8",
+      "goal": "You want to book a flight from Los Angeles to Tokyo on 2026-09-01 for 2 passengers. Authenticate as David Brown (email: david.brown@email.com). After seeing flight options, ask the agent to book the best option. Confirm when asked.",
+      "agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+      "user_profile": "You are David Brown, planning a trip with a friend to Tokyo. You are decisive and prefer to move quickly through the process.",
+      "knowledge": [
+        {"content": "Your email is david.brown@email.com."},
+        {"content": "You want to fly from Los Angeles to Tokyo with 1 companion."},
+        {"content": "Your user_id is u_david_004."}
+      ]
+    }
+  ]
+}

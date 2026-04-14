@@ -1,0 +1,1183 @@
+{
+    "schema_version": "v1.1",
+    "simulator_version": "v1",
+    "simulation_id": "d6e2504a-dd82-4464-88a7-75f08e189ba5",
+    "generated_at": "2026-04-14T17:09:59Z",
+    "conversations": [
+        {
+            "conversation_id": "3e0a2427-056c-4852-b63d-0c2b8cca5a66",
+            "scenario_id": "sc-003",
+            "conversation_history": [
+                {
+                    "turn_id": 0,
+                    "message_id": "e30eec8e-02b8-4d1c-9b5f-a77ad61de9a2",
+                    "role": "simulated_user",
+                    "content": "I\u2019m ready to begin planning your trip to Tokyo! Would you like me to start by searching for flights from Chicago?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 0,
+                    "message_id": "784b6cc7-be8e-4357-b4e0-066dca78fdef",
+                    "role": "assistant",
+                    "content": "Before we can start planning your trip and searching for flights, I need to authenticate you. Could you please provide your email or name?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "ec120674-d630-401e-aec4-35c7f01882bf",
+                    "role": "simulated_user",
+                    "content": "My email is carol.w@email.com.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "40af48c1-a5df-4081-8599-89f1950cb5f3",
+                    "role": "assistant",
+                    "content": "Thank you for your patience, Carol! You are now authenticated. Would you like me to search for flights from Chicago to Tokyo?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "52bf37a1-fcae-40a5-96a3-9804ffa5a88c",
+                    "role": "simulated_user",
+                    "content": "Yes, please search for flights from Chicago to Tokyo for the dates 2026-08-01 to 2026-08-10.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "68e28825-de10-4572-abcf-dc69eb1cc294",
+                    "role": "assistant",
+                    "content": "I need to know the number of passengers traveling with you to proceed with the flight search. Could you please provide that information?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "95eb9ca5-3017-483e-b383-c4dbb292cb30",
+                    "role": "simulated_user",
+                    "content": "There will be one passenger traveling.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "6b6cb875-5ad7-4f19-9635-b8ff21f15c19",
+                    "role": "assistant",
+                    "content": "I found several flight options from Chicago to Tokyo for your travel dates (August 1, 2026, to August 10, 2026):\n\n1. **ANA (All Nippon Airways)**\n   - **Route:** Chicago (ORD) to Tokyo (HND)\n   - **Round Trip / Economy**\n   - **Fares from:** $1,362\n\n2. **Expedia**\n   - **Roundtrip flights usually range from:** $1,183 to $7,678\n\n3. **Google Flights**\n   - **Nonstop fares from:** $1,554\n   - **Typical price range:** $1,350 - $2,700\n\n4. **Momondo**\n   - **Average flight prices:** Around $1,096\n\n5. **United Airlines**\n   - **Roundtrip / Economy fares from:** $1,346\n\nPlease note that prices may vary based on availability and booking time. Would you like to proceed with booking a flight, or do you need more information?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "bd380141-72d1-466c-bb0c-3b9fd61e3728",
+                    "role": "simulated_user",
+                    "content": "I\u2019d like to go with the ANA flight for $1,362. Can you proceed with the booking?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "68f21177-72f9-4d78-9722-bed2f8fac96a",
+                    "role": "assistant",
+                    "content": "I need your confirmation to proceed with the booking for the ANA flight from Chicago to Tokyo for $1,362. Do you confirm this booking? (yes/no)",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "9f235dd8-ed78-4fdc-bca2-76a3e93c7bce",
+                    "role": "simulated_user",
+                    "content": "Yes, I confirm the booking for the ANA flight from Chicago to Tokyo for $1,362.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "f7114acb-d28d-406a-93b8-2a8a4f4eb920",
+                    "role": "assistant",
+                    "content": "It seems there was an issue with the booking process. I will need to authenticate you again. Could you please provide your email or name once more?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "cae19611-aec7-4063-8f5d-bf4e82a60201",
+                    "role": "simulated_user",
+                    "content": "My email is carol.w@email.com.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "3c6df1cb-5655-4712-a72d-7557135aeed5",
+                    "role": "assistant",
+                    "content": "I've transferred you to a human agent who will assist you with your booking for the ANA flight. Thank you for your patience, and they will be with you shortly!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "4245e63c-e24c-4cb0-a8ce-a184d77ea643",
+                    "role": "simulated_user",
+                    "content": "Sounds good! Once the flight booking is sorted, let me know when we can move on to finding a hotel in Tokyo.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "4471bdc5-ad36-43e0-8413-54be4a33c90b",
+                    "role": "assistant",
+                    "content": "Absolutely! Once your flight booking is confirmed, I'll be ready to assist you with finding a hotel in Tokyo. Just let me know when you're ready to proceed!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "46175656-fbf6-482a-8a03-ac1db64d90ad",
+                    "role": "simulated_user",
+                    "content": "Thank you! The flight booking is confirmed. Now, can we start searching for a hotel in Tokyo for the dates August 1 to August 10, 2026?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "3150ca5f-ba18-4d29-9fed-d61ea4790604",
+                    "role": "assistant",
+                    "content": "I need a bit more information to help you find a hotel in Tokyo. Could you please specify:\n\n1. The area in Tokyo where you'd like to stay (e.g., Shinjuku, Shibuya, etc.).\n2. Any specific preferences or requirements (e.g., budget, amenities, etc.).",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "fbdec861-9503-4e97-8f09-63be9035c003",
+                    "role": "simulated_user",
+                    "content": "I\u2019d like to stay in Shinjuku, and my budget is around $150 per night. I prefer a hotel that includes breakfast and good access to public transport.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "aa3d2f0f-d0a8-4e44-9b42-1a83b1184b1f",
+                    "role": "assistant",
+                    "content": "I found several hotel options in Shinjuku, Tokyo, for your stay from August 1 to August 10, 2026, within your budget of around $150 per night. Here are some highlights:\n\n1. **THE 10 BEST Hotels in Tokyo, Japan**\n   - Prices starting from $37 per night.\n   - Great reviews and various amenities.\n\n2. **TOP 10 Hotels in Tokyo**\n   - Competitive prices with options starting from $47.\n   - A wide selection of hotels with breakfast included.\n\n3. **10 Best Tokyo Hotels**\n   - Features hotels like HOTEL GROOVE SHINJUKU and MUJI HOTEL GINZA.\n   - Offers air-conditioned rooms, restaurants, and free WiFi.\n\n4. **16 Best Hotels in Tokyo**\n   - 2-star hotels from $28, 3 stars from $41, and 4 stars+ from $74.\n\nYou can explore these options further and check availability through the provided links. Would you like assistance with booking a specific hotel, or do you need more information?",
+                    "tool_calls": null
+                }
+            ],
+            "simulated_user_prompt": {
+                "simulated_user_prompt_template": "You are a user interacting with an agent through multiple turns.\nThe agent is supplied by the following conversation context:\n{{ scenario.agent_context }}\n\nYour profile is:\n{{ scenario.user_profile }}\n\nYou have the following goal when interacting with this agent:\n{{ scenario.goal }}\n\n{% if scenario.knowledge and scenario.knowledge|length == 1 %}\nHere is the content that you might be interested in and might have questions about:\n{{ scenario.knowledge[0].content }}\n\n{% elif scenario.knowledge and scenario.knowledge|length > 1 %}\nYou will receive reference knowledge in a user message immediately before each of your replies; use it when relevant to achieve your goal.\n{% endif %}\n\nRules:\n- Do not give away all the instruction at once. Only provide the information necessary for the current step.\n- Do not hallucinate information that is not provided in the instruction.\n- If the instruction goal is satisfied, generate '###STOP###' as a standalone message without anything else.\n- Do not repeat the exact instruction in the conversation.\n- Avoid using bullet points or lists.\n- Keep responses brief and under 50 words.\n- You are the user and the agent is the assistant. Do not flip the roles.\n\n{% if scenario.knowledge and scenario.knowledge|length > 1 %}\n- Ask only one question per turn.\n{% endif %}\n",
+                "variables": {
+                    "scenario.agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+                    "scenario.goal": "You want to plan a full trip to Tokyo: flights from Chicago on 2026-08-01 returning 2026-08-10, a hotel for the same dates, and things to do. You authenticate as Carol Williams (email: carol.w@email.com). You want all three searches done before ending the conversation.",
+                    "scenario.knowledge": [
+                        "Your email is carol.w@email.com.",
+                        "You live in Chicago and want to visit Tokyo for 10 days.",
+                        "You are interested in temples, sushi, and anime culture."
+                    ],
+                    "scenario.user_profile": "You are Carol Williams, an adventurous traveler who loves Japanese culture and food. You want a comprehensive trip plan."
+                }
+            }
+        },
+        {
+            "conversation_id": "563733ad-8235-497f-8797-e05e4d88b10f",
+            "scenario_id": "sc-006",
+            "conversation_history": [
+                {
+                    "turn_id": 0,
+                    "message_id": "3067232b-01bf-49a8-8772-cc797a0d5c8c",
+                    "role": "simulated_user",
+                    "content": "I can help with that! First, I'll need you to authenticate. Can you please provide your name?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 0,
+                    "message_id": "50d70075-5ea3-4825-8303-6dedc911b43d",
+                    "role": "assistant",
+                    "content": "It seems there was an issue with the authentication process. Please provide your email address or full name so I can assist you further.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "85d207b1-7526-45dd-969f-7d2be3c44a64",
+                    "role": "simulated_user",
+                    "content": "My name is Frank Garcia. Let's proceed with the authentication.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "724e9a43-2b67-4320-9b35-f6b12120c1b4",
+                    "role": "assistant",
+                    "content": "You have been successfully authenticated, Frank Garcia! How can I assist you with your travel plans today?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "63ff1c30-acea-44ba-9672-b35aa85f1af0",
+                    "role": "simulated_user",
+                    "content": "I want to search for flights from Seattle to San Francisco on May 15, 2026, for 1 passenger.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "d6a35d50-1291-49c2-bdba-b656b4742f80",
+                    "role": "assistant",
+                    "content": "I found several flight options from Seattle to San Francisco on May 15, 2026, for 1 passenger. Here are some highlights:\n\n1. **Expedia**: One-way flights range from **$62 to $907**; roundtrip flights from **$177 to $1739**.\n2. **KAYAK**: Flights starting from **$78** with various airlines.\n3. **Google Flights**: Prices typically range from **$145 to $375**.\n4. **United Airlines**: Starting from **$157**.\n5. **Trip.com**: Cheap flights available from **$41**.\n\nYou can click on the links for more details or to book your flight. Would you like assistance with anything else, such as hotels or events in San Francisco?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "a8e9dc99-4ba5-475b-981e-db2cf862098f",
+                    "role": "simulated_user",
+                    "content": "No, just the flights for now. Can you give me the best option from those?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "f0d52fc8-d4f0-480c-9545-cdbd0c28b7ca",
+                    "role": "assistant",
+                    "content": "The best flight option from Seattle to San Francisco on May 15, 2026, is available on **Trip.com** for **$41**. Would you like to proceed with booking this flight or need assistance with anything else?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "88eca0b0-204a-4acd-ab65-2f01216861f4",
+                    "role": "simulated_user",
+                    "content": "I\u2019d like to proceed with booking the flight from Trip.com for $41. Please help me with that!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "6630f883-105d-4c57-88c5-c2aaf3989be1",
+                    "role": "assistant",
+                    "content": "To proceed with the booking of the flight from Seattle to San Francisco for $41, I need the following details:\n\n1. **Full name of the passenger**.\n2. **Email address** for the booking confirmation.\n3. **Any special requests** (if applicable).\n\nOnce I have this information, I will summarize the booking for your confirmation.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "c96c7a17-41c2-48f9-97c1-982728c4ecd1",
+                    "role": "simulated_user",
+                    "content": "My full name is Frank Garcia. The email address is frank.garcia@email.com. No special requests. Let's finalize the booking!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "cfc9b7fd-4e47-477c-a9c8-c031835c9098",
+                    "role": "assistant",
+                    "content": "Please confirm if you would like to proceed with the booking of your flight for $41 from Seattle to San Francisco on May 15, 2026. Just reply with \"yes\" to confirm!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "e798bceb-d9f9-4e08-830a-08e4abef87ae",
+                    "role": "simulated_user",
+                    "content": "Yes!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "09db9563-6f36-420b-a4a1-23424d8e273e",
+                    "role": "assistant",
+                    "content": "It seems there was a hiccup in the booking process. Let me re-authenticate you quickly. Please confirm your name again.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "8251050c-c908-4015-8268-689731f0fbe7",
+                    "role": "simulated_user",
+                    "content": "I'm Frank Garcia. Let's get this booking done!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "da5fbe03-0574-4ba0-b4e1-5667f782d200",
+                    "role": "assistant",
+                    "content": "I apologize for the inconvenience, Frank. It seems there was an issue with the booking process. Let me authenticate you again to finalize the booking. Please confirm your name once more.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "a6243bd7-f67d-4297-b156-bc9d9cba47ec",
+                    "role": "simulated_user",
+                    "content": "My name is Frank Garcia. Please proceed with the authentication.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "8a30f0a1-8456-41b4-8760-446b1b6d85a4",
+                    "role": "assistant",
+                    "content": "Please confirm if everything looks good for your booking:\n\n- **Passenger Name**: Frank Garcia\n- **Email**: frank.garcia@email.com\n- **Flight Price**: $41\n\nIf everything is correct, please reply with \"yes\" to proceed with the booking!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "9dbffe9d-2d2e-4eb5-a058-b2f3c7f27d2b",
+                    "role": "simulated_user",
+                    "content": "Yes! Let's proceed with the booking.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "acf8a3a3-a72e-4040-81d2-ac275c6bb002",
+                    "role": "assistant",
+                    "content": "It seems I'm unable to complete the booking process at this moment. I recommend transferring your request to a human agent who can assist you further. Would you like me to do that?",
+                    "tool_calls": null
+                }
+            ],
+            "simulated_user_prompt": {
+                "simulated_user_prompt_template": "You are a user interacting with an agent through multiple turns.\nThe agent is supplied by the following conversation context:\n{{ scenario.agent_context }}\n\nYour profile is:\n{{ scenario.user_profile }}\n\nYou have the following goal when interacting with this agent:\n{{ scenario.goal }}\n\n{% if scenario.knowledge and scenario.knowledge|length == 1 %}\nHere is the content that you might be interested in and might have questions about:\n{{ scenario.knowledge[0].content }}\n\n{% elif scenario.knowledge and scenario.knowledge|length > 1 %}\nYou will receive reference knowledge in a user message immediately before each of your replies; use it when relevant to achieve your goal.\n{% endif %}\n\nRules:\n- Do not give away all the instruction at once. Only provide the information necessary for the current step.\n- Do not hallucinate information that is not provided in the instruction.\n- If the instruction goal is satisfied, generate '###STOP###' as a standalone message without anything else.\n- Do not repeat the exact instruction in the conversation.\n- Avoid using bullet points or lists.\n- Keep responses brief and under 50 words.\n- You are the user and the agent is the assistant. Do not flip the roles.\n\n{% if scenario.knowledge and scenario.knowledge|length > 1 %}\n- Ask only one question per turn.\n{% endif %}\n",
+                "variables": {
+                    "scenario.agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+                    "scenario.goal": "You try to search for flights without authenticating first. When the agent asks you to authenticate, provide your name as Frank Garcia. After authentication, search for flights from Seattle to San Francisco on 2026-05-15 for 1 passenger.",
+                    "scenario.knowledge": [
+                        "Your name is Frank Garcia.",
+                        "You want to fly from Seattle to San Francisco."
+                    ],
+                    "scenario.user_profile": "You are Frank Garcia. You are impatient and try to skip steps, but comply when the agent explains the requirement."
+                }
+            }
+        },
+        {
+            "conversation_id": "780325b4-89c6-40cd-9c74-5f07ae9823a0",
+            "scenario_id": "sc-002",
+            "conversation_history": [
+                {
+                    "turn_id": 0,
+                    "message_id": "af1c8dcb-86f0-4f7d-a4c0-cb1e1a3e8563",
+                    "role": "simulated_user",
+                    "content": "To get started, could you please authenticate using your email?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 0,
+                    "message_id": "442eb7ad-0aeb-4b8f-8bc3-b19241e1203e",
+                    "role": "assistant",
+                    "content": "Please provide your email address or full name so I can authenticate you.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "77677e63-1b2d-4c82-b4e9-6e6c2863ea7e",
+                    "role": "simulated_user",
+                    "content": "I've authenticated you as Bob Smith. Now, let me find some hotel options in Paris for your dates. Please hold on a moment.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "cc62f71b-4577-4f75-a966-554d90799db9",
+                    "role": "assistant",
+                    "content": "I need the following details to find hotel options in Paris:\n\n1. Check-in date (YYYY-MM-DD)\n2. Check-out date (YYYY-MM-DD)\n3. Number of guests\n\nPlease provide this information!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "3e3debe1-543e-492c-b8d9-693ff22f30f4",
+                    "role": "simulated_user",
+                    "content": "The check-in date is 2026-07-10, check-out date is 2026-07-14, and there will be 2 guests.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "b0ab4204-fd6a-4b44-99f0-ead70e975db5",
+                    "role": "assistant",
+                    "content": "I found several hotel options in Paris for your stay from July 10 to July 14, 2026, for 2 guests. Here are some highlights:\n\n1. **Tripadvisor**: Hotels starting from $90 per night.\n2. **Expedia**: Hotels starting from $64 per night, with many fully refundable options.\n3. **Hotels.com**: Flexible booking options available.\n4. **Booking.com**: Features popular hotels like Holiday Inn Express and Comfort Inn & Suites.\n5. **Orbitz**: Exclusive deals starting from $51 per night.\n\nYou can click on the links for more details and to check availability. If you need help with anything else, just let me know!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "a6c3aa6f-04b5-4b8b-8b69-2b8e7b96ac82",
+                    "role": "simulated_user",
+                    "content": "If you'd like to proceed with booking or need assistance with any specific hotel, just let me know!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "cf8b1fb0-cb2f-4cec-93aa-fdf690dfe95e",
+                    "role": "assistant",
+                    "content": "If you're ready to proceed with a booking or need assistance with a specific hotel, please let me know which hotel you're interested in, and I'll help you with the booking process!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "564d1593-9951-4227-8d35-232d8f651f8b",
+                    "role": "simulated_user",
+                    "content": "I'm interested in booking a hotel for the romantic getaway. Could you help me with more details on one of the mid-range options, preferably one with good reviews?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "f7e011ee-d239-40dc-8bfa-27695df21170",
+                    "role": "assistant",
+                    "content": "I have found some mid-range hotel options in Paris for your romantic getaway. Here are a few with good reviews:\n\n1. **Tripadvisor**: Hotels starting from $90 per night.\n2. **Expedia**: Hotels starting from $64 per night, with many fully refundable options.\n3. **Hotels.com**: Flexible booking options available.\n4. **Booking.com**: Features popular hotels like Holiday Inn Express and Comfort Inn & Suites.\n5. **Orbitz**: Exclusive deals starting from $51 per night.\n\nIf you're interested in a specific hotel or would like to proceed with a booking, please let me know!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "e19d45c1-0153-4d9f-9a63-fc0941d334b2",
+                    "role": "simulated_user",
+                    "content": "I'd like to see more details on the hotels listed on Expedia, as they offer fully refundable options. Could you check that for me?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "e339fc82-2526-4c2c-9f5f-85da2bd3b2ee",
+                    "role": "assistant",
+                    "content": "I found several mid-range hotel options on Expedia for your stay in Paris from July 10 to July 14, 2026, for 2 guests. Most of these hotels are fully refundable. Here are the details:\n\n1. **Expedia**: Hotels starting from $64 per night.\n2. **Tripadvisor**: Hotels starting from $90 per night.\n3. **Hotels.com**: Flexible booking options available.\n4. **Booking.com**: Features popular hotels like Holiday Inn Express and Comfort Inn & Suites.\n5. **Orbitz**: Exclusive deals starting from $51 per night.\n\nYou can click on the links for more details and to check availability. If you have a specific hotel in mind or would like to proceed with a booking, please let me know!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "62154621-8c00-44a0-a316-e4797f9bf4b9",
+                    "role": "simulated_user",
+                    "content": "I\u2019d like to know more about specific hotels on Expedia that are good for couples. Could you provide details about one or two of those options?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "6c49ae05-306e-462d-81cd-cc663ab00b9c",
+                    "role": "assistant",
+                    "content": "I found a couple of hotel options on Expedia that are great for couples:\n\n1. **Hotel Le Six**:\n   - **Price**: Starting from approximately $150 per night.\n   - **Features**: A boutique hotel located in the Montparnasse area, known for its romantic ambiance, spa services, and proximity to attractions.\n   - **Reviews**: Highly rated for its service and comfort.\n\n2. **H\u00f4tel de la Place du Louvre**:\n   - **Price**: Starting from approximately $180 per night.\n   - **Features**: Located near the Louvre, this hotel offers elegant rooms and a charming atmosphere, perfect for a romantic getaway.\n   - **Reviews**: Guests love the location and the cozy feel of the hotel.\n\nWould you like to proceed with booking one of these hotels, or do you need more information?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "3552a12c-9357-455f-b4b0-83507fa7b641",
+                    "role": "simulated_user",
+                    "content": "I'd like to proceed with booking Hotel Le Six. Could you help with that, please?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "b9469213-38a3-47e8-9f4c-ea817d249b43",
+                    "role": "assistant",
+                    "content": "I can help you with the booking for Hotel Le Six. Please confirm the following details:\n\n- **Check-in date**: July 10, 2026\n- **Check-out date**: July 14, 2026\n- **Number of guests**: 2\n- **Hotel name**: Hotel Le Six\n\nShall I proceed with the booking?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "c3459d16-080e-4c0f-8b24-ff6131e53c05",
+                    "role": "simulated_user",
+                    "content": "Yes, please proceed with the booking for Hotel Le Six with the provided details.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "ded1af58-1f30-4b1d-a1ff-a0484c4ff919",
+                    "role": "assistant",
+                    "content": "It seems I need to authenticate you again to proceed with the booking for Hotel Le Six. Please confirm your email address or provide any other identifying information.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "2d64d054-e1a4-42fd-b8cf-7b61ea9e8462",
+                    "role": "simulated_user",
+                    "content": "You can authenticate me using my email address: bob.smith@email.com.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "cd7d7886-e403-4903-b0f7-798c6175fbed",
+                    "role": "assistant",
+                    "content": "I apologize for the inconvenience, but I am unable to complete the booking directly. However, you can easily book Hotel Le Six through the Expedia website or app by entering your travel details.\n\nIf you need assistance with anything else or have questions about the booking process, feel free to ask!",
+                    "tool_calls": null
+                }
+            ],
+            "simulated_user_prompt": {
+                "simulated_user_prompt_template": "You are a user interacting with an agent through multiple turns.\nThe agent is supplied by the following conversation context:\n{{ scenario.agent_context }}\n\nYour profile is:\n{{ scenario.user_profile }}\n\nYou have the following goal when interacting with this agent:\n{{ scenario.goal }}\n\n{% if scenario.knowledge and scenario.knowledge|length == 1 %}\nHere is the content that you might be interested in and might have questions about:\n{{ scenario.knowledge[0].content }}\n\n{% elif scenario.knowledge and scenario.knowledge|length > 1 %}\nYou will receive reference knowledge in a user message immediately before each of your replies; use it when relevant to achieve your goal.\n{% endif %}\n\nRules:\n- Do not give away all the instruction at once. Only provide the information necessary for the current step.\n- Do not hallucinate information that is not provided in the instruction.\n- If the instruction goal is satisfied, generate '###STOP###' as a standalone message without anything else.\n- Do not repeat the exact instruction in the conversation.\n- Avoid using bullet points or lists.\n- Keep responses brief and under 50 words.\n- You are the user and the agent is the assistant. Do not flip the roles.\n\n{% if scenario.knowledge and scenario.knowledge|length > 1 %}\n- Ask only one question per turn.\n{% endif %}\n",
+                "variables": {
+                    "scenario.agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+                    "scenario.goal": "You want to find hotels in Paris for check-in 2026-07-10 and check-out 2026-07-14 for 2 guests. You authenticate as Bob Smith (email: bob.smith@email.com). After seeing hotel options, you are satisfied.",
+                    "scenario.knowledge": [
+                        "Your email is bob.smith@email.com.",
+                        "You are traveling with your partner to Paris."
+                    ],
+                    "scenario.user_profile": "You are Bob Smith, planning a romantic getaway to Paris with your partner. You prefer mid-range hotels with good reviews."
+                }
+            }
+        },
+        {
+            "conversation_id": "7ccf1fbe-fc24-4d99-b37f-04e7fde8827f",
+            "scenario_id": "sc-008",
+            "conversation_history": [
+                {
+                    "turn_id": 0,
+                    "message_id": "3f4ce151-9a79-42cc-a97d-30d7bde01094",
+                    "role": "simulated_user",
+                    "content": "Please authenticate to proceed with searching for flights from Los Angeles to Tokyo for 2 passengers on 2026-09-01.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 0,
+                    "message_id": "0bcb8490-0e49-434c-bca8-7dd21968196e",
+                    "role": "assistant",
+                    "content": "Please provide your email address or full name for authentication so we can proceed with searching for flights from Los Angeles to Tokyo.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "b5827254-8fa8-46aa-b266-7d8686afaa0f",
+                    "role": "simulated_user",
+                    "content": "My email is david.brown@email.com.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "20b0bb99-4a3e-43b8-8c39-d111cc8e5f71",
+                    "role": "assistant",
+                    "content": "I found several flight options from Los Angeles to Tokyo for 2 passengers on September 1, 2026. Here are some highlights:\n\n1. **ANA (All Nippon Airways)**: Round trip, Economy, fares from $1,120 per person.\n2. **KAYAK**: Various airlines, fares from $315 per person.\n3. **Expedia**: Round trip, fares from $653 total.\n4. **Google Flights**: Nonstop, fares from $1,153 per person.\n5. **STARLUX Airlines**: Fares from $1,066 per person.\n\nWould you like to proceed with booking any of these flights or need more information?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "1f647205-3533-4ce1-a2d1-b81d6ef4916b",
+                    "role": "simulated_user",
+                    "content": "I'd like to book the flight with KAYAK, which has fares from $315 per person. Please proceed with the booking.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "6325d57e-59ce-4441-a470-9cef955f4d42",
+                    "role": "assistant",
+                    "content": "It seems I need to gather more specific details for the booking. Please provide the following information:\n\n1. Your unique user ID (if applicable).\n2. The number of passengers (which I already know is 2).\n3. Departure city (Los Angeles).\n4. Arrival city (Tokyo).\n5. Travel date (September 1, 2026).\n\nOnce I have this information, I can proceed with the booking for your flight with KAYAK.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "8fd56418-2010-4eeb-9c95-72053b681130",
+                    "role": "simulated_user",
+                    "content": "I don't have a unique user ID. Here\u2019s the information you need:\n\n1. Passengers: 2\n2. Departure city: Los Angeles\n3. Arrival city: Tokyo\n4. Travel date: September 1, 2026\n\nPlease proceed with the booking.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "6994d555-3a98-4f64-85c8-e8add60f3a48",
+                    "role": "assistant",
+                    "content": "It seems that I cannot proceed with the booking without a unique user ID or account. Please create an account or provide a user ID to continue with the flight booking. If you need assistance with this process, let me know!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "f7ff4f16-106b-418b-9986-ab9d216e70b9",
+                    "role": "simulated_user",
+                    "content": "My user ID is u_david_004. Please proceed with the booking for the KAYAK flight.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "28a09872-45d4-4f1a-8970-ad54c9ae8d85",
+                    "role": "assistant",
+                    "content": "Please confirm if you would like to proceed with the booking for the KAYAK flight from Los Angeles to Tokyo for 2 passengers at $315 per person. Just reply with \"yes\" to confirm or \"no\" if you want to cancel.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "eb239d9d-d48e-4fba-bcdc-260e8b1eface",
+                    "role": "simulated_user",
+                    "content": "Yes.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "c419b9b5-f0d2-4dcc-911f-b60ee536ea2b",
+                    "role": "assistant",
+                    "content": "Your flight from Los Angeles to Tokyo for 2 passengers on September 1, 2026, has been successfully booked with KAYAK. \n\nIf you need assistance with hotels, events, or anything else for your trip, just let me know!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "ff377195-60d5-4aca-897b-2282e90a636b",
+                    "role": "simulated_user",
+                    "content": "Thank you! I may need help with hotels in Tokyo next.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "b05fb07e-1c44-4174-8c6e-59e5b62ecbf9",
+                    "role": "assistant",
+                    "content": "Please provide your email address or full name again for authentication so we can proceed with searching for hotels in Tokyo.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "61cae5cf-8890-44a7-bb30-851147a5d083",
+                    "role": "simulated_user",
+                    "content": "My email is david.brown@email.com.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "79c1a9cc-8a27-4945-806c-5fbc97f29154",
+                    "role": "assistant",
+                    "content": "Could you please provide the following details for your hotel search in Tokyo?\n\n1. Check-in date (YYYY-MM-DD)\n2. Check-out date (YYYY-MM-DD)\n3. Number of guests\n\nOnce I have this information, I can find suitable hotel options for you!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "1a53ee1f-387d-45dc-ac3d-d2cbbdffe625",
+                    "role": "simulated_user",
+                    "content": "Check-in date: 2026-09-02  \nCheck-out date: 2026-09-10  \nNumber of guests: 2  \n\nPlease proceed with the hotel search.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "44bcd300-6a4d-48b0-b801-3f0dbd21fab5",
+                    "role": "assistant",
+                    "content": "Here are some hotel options in Tokyo for your stay from September 2 to September 10, 2026, for 2 guests:\n\n1. **Hostel Den Tokyo**\n   - Conveniently located within 5 minutes' walk of Kodemmacho tube station.\n   - Close to various dining options.\n\n2. **Hundred Stay Tokyo Shinjuku**\n   - A 4-star hotel providing spacious rooms, located near Okubo railway station.\n   - Great location with easy subway access.\n\n3. **Candeo Hotels Ueno Park**\n   - Located in the Ueno district, offers 24-hour front desk assistance.\n   - Close to the Tokyo National Museum.\n\n4. **The Royal Park Hotel Iconic Tokyo Shiodome**\n   - Offers a free shuttle service and is well-rated for its location and amenities.\n\n5. **Hotel New Otani Tokyo Garden Tower**\n   - A luxurious hotel with beautiful gardens and excellent dining options.\n\nWould you like to proceed with booking any of these hotels or need more information?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "69ee3bb1-efd9-415c-9d6d-0290d74a7914",
+                    "role": "simulated_user",
+                    "content": "I'd like to book The Royal Park Hotel Iconic Tokyo Shiodome. Please proceed with the booking.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "3e0a1cc7-22f9-4964-9cfa-218c529844e6",
+                    "role": "assistant",
+                    "content": "Please confirm if you would like to proceed with the booking for The Royal Park Hotel Iconic Tokyo Shiodome from September 2 to September 10, 2026, for 2 guests. Just reply with \"yes\" to confirm or \"no\" if you want to cancel.",
+                    "tool_calls": null
+                }
+            ],
+            "simulated_user_prompt": {
+                "simulated_user_prompt_template": "You are a user interacting with an agent through multiple turns.\nThe agent is supplied by the following conversation context:\n{{ scenario.agent_context }}\n\nYour profile is:\n{{ scenario.user_profile }}\n\nYou have the following goal when interacting with this agent:\n{{ scenario.goal }}\n\n{% if scenario.knowledge and scenario.knowledge|length == 1 %}\nHere is the content that you might be interested in and might have questions about:\n{{ scenario.knowledge[0].content }}\n\n{% elif scenario.knowledge and scenario.knowledge|length > 1 %}\nYou will receive reference knowledge in a user message immediately before each of your replies; use it when relevant to achieve your goal.\n{% endif %}\n\nRules:\n- Do not give away all the instruction at once. Only provide the information necessary for the current step.\n- Do not hallucinate information that is not provided in the instruction.\n- If the instruction goal is satisfied, generate '###STOP###' as a standalone message without anything else.\n- Do not repeat the exact instruction in the conversation.\n- Avoid using bullet points or lists.\n- Keep responses brief and under 50 words.\n- You are the user and the agent is the assistant. Do not flip the roles.\n\n{% if scenario.knowledge and scenario.knowledge|length > 1 %}\n- Ask only one question per turn.\n{% endif %}\n",
+                "variables": {
+                    "scenario.agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+                    "scenario.goal": "You want to book a flight from Los Angeles to Tokyo on 2026-09-01 for 2 passengers. Authenticate as David Brown (email: david.brown@email.com). After seeing flight options, ask the agent to book the best option. Confirm when asked.",
+                    "scenario.knowledge": [
+                        "Your email is david.brown@email.com.",
+                        "You want to fly from Los Angeles to Tokyo with 1 companion.",
+                        "Your user_id is u_david_004."
+                    ],
+                    "scenario.user_profile": "You are David Brown, planning a trip with a friend to Tokyo. You are decisive and prefer to move quickly through the process."
+                }
+            }
+        },
+        {
+            "conversation_id": "a8991044-b5c2-4534-a393-f1bf622b349f",
+            "scenario_id": "sc-005",
+            "conversation_history": [
+                {
+                    "turn_id": 0,
+                    "message_id": "1d531a75-ee11-4ef7-a75f-b55b705f5d32",
+                    "role": "simulated_user",
+                    "content": "What type of beach activities or nightlife experiences are you most excited to explore in Barcelona?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 0,
+                    "message_id": "7642fbca-ff1b-4a10-8ffa-3989ab40eaa7",
+                    "role": "assistant",
+                    "content": "It seems like you're interested in beach activities and nightlife experiences in Barcelona! However, before I can assist you with that, I need to authenticate you. Could you please provide your email or name?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "9f92e0fa-8d0f-407e-9741-15b30c074f76",
+                    "role": "simulated_user",
+                    "content": "Sure! My name is Eve Davis.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "1eb5e99f-c9ba-4aba-b4cc-01efa6a92dfd",
+                    "role": "assistant",
+                    "content": "I can help you find beach activities and nightlife experiences in Barcelona! However, I need to know your travel dates or any specific interests you have in mind. Could you please provide that information?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "21bf7d7f-4942-4365-afd0-4fa5bd0eaf28",
+                    "role": "simulated_user",
+                    "content": "I\u2019m planning to be in Barcelona from September 10th to September 20th. I\u2019m mainly interested in beach clubs and nightlife options!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "708dbf36-231f-4672-955c-3ae629784757",
+                    "role": "assistant",
+                    "content": "I've found some exciting beach clubs and nightlife experiences for you in Barcelona from September 10th to September 20th. Here\u2019s a summary:\n\n### Beach Clubs\n1. **Opium Barcelona Beach Club** - A lively spot on Barceloneta beach with a restaurant and cocktail bar.\n2. **Puro Beach** - Stylish and relaxing, perfect for unwinding by the pool.\n3. **Wet Deck, W Hotel Barcelona** - Features an infinity pool and vibrant atmosphere.\n4. **Carpe Diem Lounge Club** - Combines dining and nightlife with great cocktails.\n5. **Bamb\u00fa Beach Bar** - A laid-back bar for casual beach vibes.\n\n### Nightlife Experiences\n1. **Watch the Sunset from a Viewpoint** - Enjoy stunning views to kick off your night.\n2. **Experience Tardeo at a Rooftop** - Enjoy drinks and tapas in a rooftop setting.\n3. **Pintxos Crawl in Poble Sec** - Sample delicious small bites at various bars.\n4. **Live Flamenco Show** - Experience the passion of flamenco at a live performance.\n5. **Tapas Crawl in El Born** - Explore tapas bars in a vibrant neighborhood.\n\nIf you need help with bookings or more details about any of these options, just let me know!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "c290fca9-44d0-4df0-abbd-159cb860777a",
+                    "role": "simulated_user",
+                    "content": "Everything sounds amazing! Can you help me with booking a table at Opium Barcelona Beach Club and a spot for the live flamenco show?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "9a76c6a3-b3e3-459e-a25e-b0cf69222216",
+                    "role": "assistant",
+                    "content": "Before I can assist you with the bookings, I need to confirm your request. Would you like to proceed with booking a table at Opium Barcelona Beach Club and a spot for the live flamenco show? Please confirm, and I'll get started!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "747ada1d-f844-4831-b0f9-e88694e9ae8e",
+                    "role": "simulated_user",
+                    "content": "Yes, please proceed with the bookings for Opium Barcelona Beach Club and the live flamenco show!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "d80545b5-4763-48e0-a9db-de67f051144a",
+                    "role": "assistant",
+                    "content": "I need some additional details to proceed with the bookings:\n\n1. **Opium Barcelona Beach Club**: \n   - Date and time for the reservation.\n   - Number of guests.\n\n2. **Live Flamenco Show**: \n   - Date and time for the show.\n   - Number of guests.\n\nPlease provide this information, and I'll finalize the bookings for you!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "c7077436-0ab4-4ecd-a622-cde5c9a3181b",
+                    "role": "simulated_user",
+                    "content": "For Opium Barcelona Beach Club, let's reserve for September 12th at 8 PM for 4 guests. \n\nFor the live flamenco show, how about September 14th at 7 PM for 4 guests as well? Would that work for you?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "6aceec84-7a72-4de2-aa72-6979745c7f3a",
+                    "role": "assistant",
+                    "content": "Your booking details are confirmed as follows:\n\n### Booking Details\n1. **Opium Barcelona Beach Club**\n   - Date: September 12th\n   - Time: 8 PM\n   - Guests: 4\n\n2. **Live Flamenco Show**\n   - Date: September 14th\n   - Time: 7 PM\n   - Guests: 4\n\nShall I proceed with the bookings? Please confirm!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "0a20864c-6aca-4e00-b9e4-f8362dc960b0",
+                    "role": "simulated_user",
+                    "content": "Yes, please proceed with the bookings for both Opium Barcelona Beach Club and the live flamenco show!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "cff4c039-d2da-4f56-b7a1-4b9b8f5e719c",
+                    "role": "assistant",
+                    "content": "I was unable to make the bookings directly, but you can easily reserve a table at Opium Barcelona Beach Club and a spot for the live flamenco show by visiting their official websites. \n\nIf you need help with anything else or have questions about the booking process, just let me know!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "6f140824-7497-4583-85a3-c0f620f10cfd",
+                    "role": "simulated_user",
+                    "content": "Got it! I'll check their websites for the bookings. Thanks for your help! Is there anything else you'd recommend for my trip?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "0ac15969-f009-4cdd-808e-6d5b7db13e8e",
+                    "role": "assistant",
+                    "content": "You're welcome! Here are a few more recommendations for your trip to Barcelona:\n\n### Additional Recommendations\n1. **Visit La Sagrada Familia** - This iconic basilica is a must-see for its stunning architecture.\n2. **Explore Park G\u00fcell** - A colorful park designed by Gaud\u00ed, perfect for a leisurely stroll.\n3. **Stroll down La Rambla** - A vibrant street filled with shops, cafes, and street performers.\n4. **Visit the Gothic Quarter** - Wander through narrow streets and discover historic buildings.\n5. **Try Local Cuisine** - Don't miss out on trying traditional dishes like paella and tapas.\n\nIf you need more information or assistance with anything else, feel free to ask. Enjoy your trip to Barcelona!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "dfbbc1ad-2898-48ba-a42a-e299d597fc8d",
+                    "role": "simulated_user",
+                    "content": "These recommendations sound fantastic! I\u2019m especially excited about trying local cuisine. Do you have any specific restaurant suggestions for paella and tapas?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "4c878fd9-b9cc-4b91-8693-01b0752b731d",
+                    "role": "assistant",
+                    "content": "Here are some great restaurant suggestions in Barcelona for paella and tapas:\n\n### Paella Restaurants\n1. **Can Maj\u00f3** - Located near the beach, known for its delicious seafood paella.\n2. **La Mar Salada** - Offers a variety of paellas with fresh ingredients and a lovely view.\n3. **7 Portes** - A historic restaurant famous for its traditional paella and elegant atmosphere.\n\n### Tapas Restaurants\n1. **Tickets** - A Michelin-starred tapas bar with creative dishes (reservations recommended).\n2. **El Xampanyet** - A charming spot in the Born district, known for its cava and traditional tapas.\n3. **Bar Celta** - Offers a great selection of Galician tapas in a cozy setting.\n\nThese places should give you a wonderful taste of local cuisine! If you need help with reservations or more options, just let me know. Enjoy your culinary adventures in Barcelona!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "df5886d0-beca-4064-8001-41f3842696c5",
+                    "role": "simulated_user",
+                    "content": "Thank you for the suggestions! I can't wait to experience the beaches and vibrant nightlife. Do you have any tips for the best time to visit the beach clubs for the full experience?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "4e83bac2-bf5d-4f6b-9d4a-0e5831b5c9e0",
+                    "role": "assistant",
+                    "content": "Absolutely! Here are some tips for the best time to visit beach clubs in Barcelona for a full experience:\n\n1. **Arrive Early**: Aim to arrive around 5 PM to secure a good spot, especially on weekends. This allows you to enjoy the beach atmosphere before it gets crowded.\n\n2. **Sunset Hours**: Visiting around sunset (approximately 7:30 PM in September) is magical. You can enjoy stunning views while sipping cocktails.\n\n3. **Dinner Reservations**: If you plan to dine, make a reservation for around 8 PM. This way, you can enjoy a meal as the sun sets and the nightlife begins.\n\n4. **Stay Late**: Many beach clubs transition into nightlife venues, so staying until late (around midnight) allows you to experience the vibrant party scene.\n\n5. **Check Events**: Some beach clubs host special events or DJs on certain nights. Check their schedules to catch live music or themed parties.\n\nThese tips should help you make the most of your beach club experience in Barcelona! If you have any more questions or need further assistance, feel free to ask. Enjoy your trip!",
+                    "tool_calls": null
+                }
+            ],
+            "simulated_user_prompt": {
+                "simulated_user_prompt_template": "You are a user interacting with an agent through multiple turns.\nThe agent is supplied by the following conversation context:\n{{ scenario.agent_context }}\n\nYour profile is:\n{{ scenario.user_profile }}\n\nYou have the following goal when interacting with this agent:\n{{ scenario.goal }}\n\n{% if scenario.knowledge and scenario.knowledge|length == 1 %}\nHere is the content that you might be interested in and might have questions about:\n{{ scenario.knowledge[0].content }}\n\n{% elif scenario.knowledge and scenario.knowledge|length > 1 %}\nYou will receive reference knowledge in a user message immediately before each of your replies; use it when relevant to achieve your goal.\n{% endif %}\n\nRules:\n- Do not give away all the instruction at once. Only provide the information necessary for the current step.\n- Do not hallucinate information that is not provided in the instruction.\n- If the instruction goal is satisfied, generate '###STOP###' as a standalone message without anything else.\n- Do not repeat the exact instruction in the conversation.\n- Avoid using bullet points or lists.\n- Keep responses brief and under 50 words.\n- You are the user and the agent is the assistant. Do not flip the roles.\n\n{% if scenario.knowledge and scenario.knowledge|length > 1 %}\n- Ask only one question per turn.\n{% endif %}\n",
+                "variables": {
+                    "scenario.agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+                    "scenario.goal": "You want to find things to do in Barcelona, especially beaches and nightlife. You authenticate as Eve Davis (email: eve.davis@email.com). After seeing event recommendations, you are satisfied.",
+                    "scenario.knowledge": [
+                        "Your email is eve.davis@email.com.",
+                        "You are interested in Barcelona's beaches and nightlife scene."
+                    ],
+                    "scenario.user_profile": "You are Eve Davis, a fun-loving traveler who enjoys beaches and nightlife. You are enthusiastic and chatty."
+                }
+            }
+        },
+        {
+            "conversation_id": "b01bc4ca-8bf3-4689-8325-e3058b969785",
+            "scenario_id": "sc-004",
+            "conversation_history": [
+                {
+                    "turn_id": 0,
+                    "message_id": "f9cccfa1-26b3-488d-8a3a-94c270824128",
+                    "role": "simulated_user",
+                    "content": "I've verified your authentication. Would you like me to proceed with the cancellation of booking BK-000001?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 0,
+                    "message_id": "7e4cf06a-2eaa-45fa-88c9-1684ccd859e1",
+                    "role": "assistant",
+                    "content": "It seems I need to confirm the reason for cancelling booking BK-000001 before proceeding. Please let me know the reason for the cancellation, and I'll take care of it!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "3d90b873-dd84-4cc5-a09f-84eee6c4e1d9",
+                    "role": "simulated_user",
+                    "content": "The reason for canceling booking BK-000001 is that my plans changed. Please proceed with the cancellation.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "bd69c77d-f30e-4f73-b279-fdf13011fa2a",
+                    "role": "assistant",
+                    "content": "Please confirm if you would like to proceed with the cancellation of booking BK-000001 for the reason \"my plans changed.\" Just reply with \"yes\" or \"no.\"",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "26f55f24-a8cc-4c83-ac74-57a9904c9dd9",
+                    "role": "simulated_user",
+                    "content": "Yes.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "762a8805-0536-412b-b315-229a83d39b0c",
+                    "role": "assistant",
+                    "content": "Your booking BK-000001 has been successfully cancelled due to your changed plans. If you need help with anything else, such as booking a new flight or finding hotels, just let me know!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "1ecc4d0b-80f6-48fa-95ca-dedb984dddfb",
+                    "role": "simulated_user",
+                    "content": "Thank you for confirming the cancellation. I appreciate your assistance!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "a3c58188-39a8-4918-928b-be0d9aace282",
+                    "role": "assistant",
+                    "content": "You're welcome! I'm glad I could help. If you have any more questions or need assistance with anything else, feel free to ask. Safe travels!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "a4307f55-b71d-4e23-81fd-4e0013c1d8eb",
+                    "role": "simulated_user",
+                    "content": "I don't need any further assistance right now. Thank you for your help! ",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "392c4a05-9073-44b8-b511-35916f3724ea",
+                    "role": "assistant",
+                    "content": "You're welcome! If you ever need assistance in the future, don't hesitate to reach out. Have a great day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "197e3a3a-eddf-4617-8322-ff2fc4111be0",
+                    "role": "simulated_user",
+                    "content": "Thank you! You too!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "81c6347d-ef01-41d8-b020-acb4846e96ef",
+                    "role": "assistant",
+                    "content": "Thank you! Take care and have a wonderful day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "7283d91c-c318-4d18-8b17-a8394b54067b",
+                    "role": "simulated_user",
+                    "content": "You too! Take care!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "9a16bb97-5b7d-49e0-a161-f8d0110f005f",
+                    "role": "assistant",
+                    "content": "Thank you! If you need anything in the future, just let me know. Take care!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "e57ef9c7-44ca-4fd9-8501-d5af5358213b",
+                    "role": "simulated_user",
+                    "content": "Will do! Thank you again!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "c3f23379-f635-43de-85af-4d12bc280225",
+                    "role": "assistant",
+                    "content": "You're very welcome! Have a great day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "be67470e-cb88-4c0a-a79e-f73c35c1a0f7",
+                    "role": "simulated_user",
+                    "content": "Thanks! You have a great day too!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "23741282-aca8-4440-87dc-94233e4a15f7",
+                    "role": "assistant",
+                    "content": "Thank you! I appreciate it! If you need anything later, just reach out. Enjoy your day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "e04aa2a3-7381-4e5e-86ce-d588177b7475",
+                    "role": "simulated_user",
+                    "content": "Thank you! I will! Enjoy your day as well!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "5ae227b4-8060-4e7e-a448-3c7a9776c36d",
+                    "role": "assistant",
+                    "content": "Thank you! I'm glad to hear that. Take care and have a fantastic day!",
+                    "tool_calls": null
+                }
+            ],
+            "simulated_user_prompt": {
+                "simulated_user_prompt_template": "You are a user interacting with an agent through multiple turns.\nThe agent is supplied by the following conversation context:\n{{ scenario.agent_context }}\n\nYour profile is:\n{{ scenario.user_profile }}\n\nYou have the following goal when interacting with this agent:\n{{ scenario.goal }}\n\n{% if scenario.knowledge and scenario.knowledge|length == 1 %}\nHere is the content that you might be interested in and might have questions about:\n{{ scenario.knowledge[0].content }}\n\n{% elif scenario.knowledge and scenario.knowledge|length > 1 %}\nYou will receive reference knowledge in a user message immediately before each of your replies; use it when relevant to achieve your goal.\n{% endif %}\n\nRules:\n- Do not give away all the instruction at once. Only provide the information necessary for the current step.\n- Do not hallucinate information that is not provided in the instruction.\n- If the instruction goal is satisfied, generate '###STOP###' as a standalone message without anything else.\n- Do not repeat the exact instruction in the conversation.\n- Avoid using bullet points or lists.\n- Keep responses brief and under 50 words.\n- You are the user and the agent is the assistant. Do not flip the roles.\n\n{% if scenario.knowledge and scenario.knowledge|length > 1 %}\n- Ask only one question per turn.\n{% endif %}\n",
+                "variables": {
+                    "scenario.agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+                    "scenario.goal": "You want to cancel your existing booking BK-000001. You authenticate as Alice Johnson (email: alice.johnson@email.com). The reason is that your plans changed. Confirm the cancellation when asked.",
+                    "scenario.knowledge": [
+                        "Your email is alice.johnson@email.com.",
+                        "Your booking ID is BK-000001.",
+                        "The reason for cancellation is that your plans changed."
+                    ],
+                    "scenario.user_profile": "You are Alice Johnson. Your travel plans changed and you need to cancel a booking. You are straightforward and confirm actions quickly."
+                }
+            }
+        },
+        {
+            "conversation_id": "f03c6c87-c3ba-41b7-8392-84be7bb19794",
+            "scenario_id": "sc-007",
+            "conversation_history": [
+                {
+                    "turn_id": 0,
+                    "message_id": "706740e3-3b17-4dd4-a830-26ad1767dbb4",
+                    "role": "simulated_user",
+                    "content": "Oh, I apologize for the mix-up! I thought this was a tax help service. Thank you for letting me know.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 0,
+                    "message_id": "a065a09b-b9ec-45d0-8c1d-c0b2767de3e4",
+                    "role": "assistant",
+                    "content": "No problem at all! If you need assistance with travel planning, feel free to let me know what you're looking for, and I'll be happy to help.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "ad262baa-6542-46f3-8a1c-7b1bc96caff5",
+                    "role": "simulated_user",
+                    "content": "Thank you for your understanding! I appreciate it, but I'm really looking for tax assistance instead.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "73b52c0b-c9bf-4f99-9366-c6ed4a117d21",
+                    "role": "assistant",
+                    "content": "I understand, but I'm here to assist with travel planning. If you have any travel-related questions or requests, please let me know! If you need tax assistance, I recommend reaching out to a tax professional or service.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "799726d2-e9ff-49ab-a494-04bf58faf61b",
+                    "role": "simulated_user",
+                    "content": "Thank you for the suggestion! I\u2019ll look into contacting a tax professional. I appreciate your help today!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "aa2626e7-6f6b-4a12-8567-bc6f9510f8bd",
+                    "role": "assistant",
+                    "content": "You're welcome! If you have any travel questions in the future or need assistance planning a trip, feel free to reach out. Have a great day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "d2d27afb-8bb4-4172-9495-e31ae6d85d8a",
+                    "role": "simulated_user",
+                    "content": "Thank you! I appreciate your help and understanding. Have a great day too!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "a28d096a-bc07-4b62-a693-52e3ca48d541",
+                    "role": "assistant",
+                    "content": "You're very welcome! If you ever need assistance in the future, don't hesitate to ask. Take care and have a wonderful day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "e01e2575-6207-4181-94d5-9c819e7a546a",
+                    "role": "simulated_user",
+                    "content": "Thank you! I will keep that in mind. Take care!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 4,
+                    "message_id": "1c9ae951-62f8-454b-9b6c-9145639fb7f8",
+                    "role": "assistant",
+                    "content": "You're welcome! Take care, and have a fantastic day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "706d37ee-a200-4ad0-ac88-7794da178887",
+                    "role": "simulated_user",
+                    "content": "Thank you! Wishing you a fantastic day as well!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 5,
+                    "message_id": "3b2de492-dabb-4d89-a227-767798484e91",
+                    "role": "assistant",
+                    "content": "Thank you so much! I appreciate it. If you ever need help with travel planning, just let me know. Have a great day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "9062f6d4-bb08-4d3d-96b0-09066abb4ac5",
+                    "role": "simulated_user",
+                    "content": "I appreciate your kindness! If I do need assistance, I\u2019ll reach out. Have a wonderful day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 6,
+                    "message_id": "7c5da5ef-ef8d-4fd7-aee1-5dd8d99837de",
+                    "role": "assistant",
+                    "content": "Thank you! I'm glad to hear that. Don't hesitate to reach out whenever you need assistance. Have a wonderful day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "3b283b55-6206-42b2-9361-1c66a67f36c5",
+                    "role": "simulated_user",
+                    "content": "Thank you! I appreciate your offer. Have a great day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 7,
+                    "message_id": "b085a490-9e2d-4d6f-8013-e5003f15e7e6",
+                    "role": "assistant",
+                    "content": "You're welcome! I'm here to help whenever you need it. Have a fantastic day!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "c1d4cb05-c594-4b34-8513-e9e0d55cbacf",
+                    "role": "simulated_user",
+                    "content": "Thank you! I'm grateful for your help. Have a fantastic day too!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 8,
+                    "message_id": "f47eb29a-5462-4147-a8c2-1afa98ac37c3",
+                    "role": "assistant",
+                    "content": "You're very welcome! I'm glad to assist. Have a fantastic day ahead!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "86472f0b-fc27-4a72-a26d-c4b278b0af64",
+                    "role": "simulated_user",
+                    "content": "Thank you! I wish you a fantastic day as well!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 9,
+                    "message_id": "69236bc1-de2e-4924-a03a-dbe81cac7ade",
+                    "role": "assistant",
+                    "content": "Thank you so much! I appreciate your kind words. If you need anything in the future, just let me know. Have a fantastic day!",
+                    "tool_calls": null
+                }
+            ],
+            "simulated_user_prompt": {
+                "simulated_user_prompt_template": "You are a user interacting with an agent through multiple turns.\nThe agent is supplied by the following conversation context:\n{{ scenario.agent_context }}\n\nYour profile is:\n{{ scenario.user_profile }}\n\nYou have the following goal when interacting with this agent:\n{{ scenario.goal }}\n\n{% if scenario.knowledge and scenario.knowledge|length == 1 %}\nHere is the content that you might be interested in and might have questions about:\n{{ scenario.knowledge[0].content }}\n\n{% elif scenario.knowledge and scenario.knowledge|length > 1 %}\nYou will receive reference knowledge in a user message immediately before each of your replies; use it when relevant to achieve your goal.\n{% endif %}\n\nRules:\n- Do not give away all the instruction at once. Only provide the information necessary for the current step.\n- Do not hallucinate information that is not provided in the instruction.\n- If the instruction goal is satisfied, generate '###STOP###' as a standalone message without anything else.\n- Do not repeat the exact instruction in the conversation.\n- Avoid using bullet points or lists.\n- Keep responses brief and under 50 words.\n- You are the user and the agent is the assistant. Do not flip the roles.\n\n{% if scenario.knowledge and scenario.knowledge|length > 1 %}\n- Ask only one question per turn.\n{% endif %}\n",
+                "variables": {
+                    "scenario.agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+                    "scenario.goal": "You want help filing a tax return. This is outside the travel agent's scope. When the agent says it cannot help, accept that gracefully.",
+                    "scenario.knowledge": [
+                        "You need help with your 2025 tax return."
+                    ],
+                    "scenario.user_profile": "You are a confused user who mistakenly contacted a travel service for tax help. You are polite about the misunderstanding."
+                }
+            }
+        },
+        {
+            "conversation_id": "f5e533f8-44e0-4abf-8b53-28e7c74b274f",
+            "scenario_id": "sc-001",
+            "conversation_history": [
+                {
+                    "turn_id": 0,
+                    "message_id": "044cd059-abc9-4c29-bcc1-1ed73112ef44",
+                    "role": "simulated_user",
+                    "content": "Please authenticate by confirming your email.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 0,
+                    "message_id": "7e992c27-cdc3-443e-9fc6-4db02a6236e0",
+                    "role": "assistant",
+                    "content": "Please provide your email address or full name for authentication.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "6aa53eac-401b-447c-9b71-d0787df1bd4b",
+                    "role": "simulated_user",
+                    "content": "My email is alice.johnson@email.com.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 1,
+                    "message_id": "3500ec31-5c18-4dfd-813e-53fd4c42f55d",
+                    "role": "assistant",
+                    "content": "You have been successfully authenticated, Alice Johnson. How can I assist you with your travel plans today?",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "55f1ba06-3e2d-4549-b9f6-712a04da12d2",
+                    "role": "simulated_user",
+                    "content": "I need to find flights from New York to London departing on June 20, 2026, for 1 passenger.",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 2,
+                    "message_id": "39e40257-5608-45f5-aa50-5d978ac9ad80",
+                    "role": "assistant",
+                    "content": "I found several flight options from New York to London for June 20, 2026. Here are some highlights:\n\n1. **American Airlines** - Check their website for the latest deals and availability.\n2. **Expedia** - Prices start at **$304** for one-way and **$597** for round trip.\n3. **JetBlue** - Fares as low as **$345** for one-way flights.\n4. **Google Flights** - Cheapest round-trip flights currently around **$446**.\n5. **Virgin Atlantic** - Round trip / Upper Class starting from **$4,332**.\n\nYou can click on the links for more details or to book your flight. If you need help with anything else, just let me know!",
+                    "tool_calls": null
+                },
+                {
+                    "turn_id": 3,
+                    "message_id": "f0b775ff-dd75-418a-acde-05b2f05bdb68",
+                    "role": "simulated_user",
+                    "content": "These flight options work for me. Thank you! ###STOP###",
+                    "tool_calls": null
+                }
+            ],
+            "simulated_user_prompt": {
+                "simulated_user_prompt_template": "You are a user interacting with an agent through multiple turns.\nThe agent is supplied by the following conversation context:\n{{ scenario.agent_context }}\n\nYour profile is:\n{{ scenario.user_profile }}\n\nYou have the following goal when interacting with this agent:\n{{ scenario.goal }}\n\n{% if scenario.knowledge and scenario.knowledge|length == 1 %}\nHere is the content that you might be interested in and might have questions about:\n{{ scenario.knowledge[0].content }}\n\n{% elif scenario.knowledge and scenario.knowledge|length > 1 %}\nYou will receive reference knowledge in a user message immediately before each of your replies; use it when relevant to achieve your goal.\n{% endif %}\n\nRules:\n- Do not give away all the instruction at once. Only provide the information necessary for the current step.\n- Do not hallucinate information that is not provided in the instruction.\n- If the instruction goal is satisfied, generate '###STOP###' as a standalone message without anything else.\n- Do not repeat the exact instruction in the conversation.\n- Avoid using bullet points or lists.\n- Keep responses brief and under 50 words.\n- You are the user and the agent is the assistant. Do not flip the roles.\n\n{% if scenario.knowledge and scenario.knowledge|length > 1 %}\n- Ask only one question per turn.\n{% endif %}\n",
+                "variables": {
+                    "scenario.agent_context": "A travel planning assistant that helps users search for flights, hotels, events, and manage bookings. Users must authenticate before making requests.",
+                    "scenario.goal": "You want to find flights from New York to London departing on 2026-06-20 for 1 passenger. You authenticate as Alice Johnson (email: alice.johnson@email.com). Once you see flight options, you are satisfied and end the conversation.",
+                    "scenario.knowledge": [
+                        "Your email is alice.johnson@email.com.",
+                        "You live in New York and want to travel to London."
+                    ],
+                    "scenario.user_profile": "You are Alice Johnson, a frequent traveler who prefers window seats and vegetarian meals. You are polite but efficient \u2014 you want quick answers."
+                }
+            }
+        }
+    ]
+}

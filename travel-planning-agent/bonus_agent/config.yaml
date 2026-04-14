@@ -1,0 +1,37 @@
+# arksim configuration for the travel planning agent
+
+agent_config:
+  agent_type: chat_completions
+  agent_name: travel-planner
+  api_config:
+    endpoint: http://localhost:8000/v1/chat/completions
+    headers:
+      Content-Type: application/json
+    body:
+      model: travel-agent
+      messages:
+        - role: system
+          content: >-
+            You are a travel planning assistant. Help users search for flights,
+            hotels, and events, and manage bookings. Authenticate users before
+            processing requests.
+
+scenario_file_path: scenarios.json
+num_conversations_per_scenario: 1
+max_turns: 10
+output_file_path: ../bonus_simulation/simulation.json
+
+# Evaluation settings
+output_dir: ../bonus_simulation
+metrics_to_run:
+  - faithfulness
+  - helpfulness
+  - coherence
+  - relevance
+  - goal_completion
+  - agent_behavior_failure
+generate_html_report: true
+
+model: gpt-4o-mini
+provider: openai
+num_workers: 1

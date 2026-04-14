@@ -52,7 +52,7 @@ print(f'GAM - Acc: {acc_gam:.4f}, LogLoss: {loss_gam:.4f}')
 
 
 
-feats = ['Class', 'Sex', 'Age', 'Fare']
+features = ['Class', 'Sex', 'Age', 'Fare']
 fig, axs = plt.subplots(1, 4, figsize=(16, 4))
 
 for i, ax in enumerate(axs):
@@ -61,7 +61,7 @@ for i, ax in enumerate(axs):
     
     ax.plot(XX[:, i], pdep)
     ax.plot(XX[:, i], conf, c='r', ls='--')
-    ax.set_title(feats[i])
+    ax.set_title(features[i])
 
 plt.tight_layout()
 plt.show()
