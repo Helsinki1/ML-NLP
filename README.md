@@ -20,6 +20,10 @@ HALOGEN: Fantastic LLM Hallucinations and Where to Find Them (https://aclantholo
 
 Can LLMs Keep A Secret? Testing Privacy Implications via Contextual Integrity Theory (https://arxiv.org/pdf/2310.17884)
 
+Extracting memorized pieces of (copyrighted) books from open-weight language models (https://arxiv.org/pdf/2505.12546)
+
+Alignment Whack-a-Mole: Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models (https://arxiv.org/pdf/2603.20957)
+
 
 DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (https://arxiv.org/pdf/2501.12948)
 
