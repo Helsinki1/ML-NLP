@@ -24,6 +24,7 @@ Extracting memorized pieces of (copyrighted) books from open-weight language mod
 
 Alignment Whack-a-Mole: Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models (https://arxiv.org/pdf/2603.20957)
 
+Fine-Tuning LLMs to Be Better Tutors (RL w dynamic reward weights & simulated students+tutors) (https://aclanthology.org/2025.emnlp-main.15.pdf)
 
 DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (https://arxiv.org/pdf/2501.12948)
 
