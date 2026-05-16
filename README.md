@@ -32,5 +32,7 @@ RL - PPO & GRPO Blog (https://yugeten.github.io/posts/2025/01/ppogrpo/)
 
 GPT-2 paper (https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
+AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical Knowledge (https://arxiv.org/pdf/2504.01538)
+
 - [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
 - [The Illustrated Transformer (general Transformer guide)](https://jalammar.github.io/illustrated-transformer/)
