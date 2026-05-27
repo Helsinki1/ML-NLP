@@ -36,3 +36,22 @@ AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical
 
 - [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
 - [The Illustrated Transformer (general Transformer guide)](https://jalammar.github.io/illustrated-transformer/)
+
+
+NEXT: DeepSeek’s multi-token prediction, Auto-encoders, diffusion models
+https://arxiv.org/html/2412.19437v1
+https://api-docs.deepseek.com/news/news260424 
+
+AI Kernels, custom programming languages, from Triton to CUDA to ThunderKittens + Tiles
+DSL, flash-attention, quantization
+https://arxiv.org/abs/2410.20399 
+https://arxiv.org/abs/2603.05451 
+https://docs.nvidia.com/cutlass/latest/media/docs/pythonDSL/cute_dsl.html 
+https://arxiv.org/abs/2208.07339 
+https://arxiv.org/abs/2404.14469 
+https://arxiv.org/abs/2510.06189 
+https://vladfeinberg.com/assets/2025-04-24-princeton-talk.pdf 
+
+JAX Exercises
+https://docs.jax.dev/en/latest/notebooks/thinking_in_jax.html (tutorial)
+https://jax-ml.github.io/scaling-book/ (exercises)
