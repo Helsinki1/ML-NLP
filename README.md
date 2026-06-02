@@ -58,6 +58,8 @@ https://arxiv.org/abs/2404.14469
 
 https://arxiv.org/abs/2510.06189 
 
+Efficient Attention Mechanisms for Large Language Models: A Survey (https://arxiv.org/abs/2507.19595?utm_source=chatgpt.com)
+
 https://vladfeinberg.com/assets/2025-04-24-princeton-talk.pdf 
 
 
