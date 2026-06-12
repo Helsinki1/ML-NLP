@@ -38,11 +38,41 @@ AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical
 - [The Illustrated Transformer (general Transformer guide)](https://jalammar.github.io/illustrated-transformer/)
 
 
-NEXT: DeepSeek’s multi-token prediction, Auto-encoders, diffusion models
-
 https://arxiv.org/html/2412.19437v1
 
 https://api-docs.deepseek.com/news/news260424 
+
+
+Mechanistic Interpretability
+
+Induction heads (Nanda): 
+
+https://transformer-circuits.pub/2021/framework/index.html
+
+https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html
+
+Linear Probes (Hewitt):
+
+https://arxiv.org/abs/1610.01644
+
+https://www.cs.columbia.edu/~johnhew/interpreting-probes.html
+
+Sparse AutoEncoders (Cunningham):
+
+https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning
+
+https://arxiv.org/abs/2309.08600
+
+https://adamkarvonen.github.io/machine_learning/2024/06/11/sae-intuitions.html
+
+Attribution Graphs:
+
+https://transformer-circuits.pub/2025/attribution-graphs/biology.html
+
+https://transformer-circuits.pub/2025/attribution-graphs/methods.html
+
+
+
 
 AI Kernels, custom programming languages, from Triton to CUDA to ThunderKittens + Tiles, DSL, flash-attention, quantization
 
