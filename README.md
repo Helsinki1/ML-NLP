@@ -72,6 +72,9 @@ https://transformer-circuits.pub/2025/attribution-graphs/biology.html
 https://transformer-circuits.pub/2025/attribution-graphs/methods.html
 
 
+Instant LLM Updates with Doc-to-LoRA and Text-to-LoRA
+
+https://pub.sakana.ai/doc-to-lora/ 
 
 
 AI Kernels, custom programming languages, from Triton to CUDA to ThunderKittens + Tiles, DSL, flash-attention, quantization
