@@ -6,6 +6,8 @@ Rethinking the role of demonstrations: What makes in-context learning work? (htt
 
 Finetuned Language Models are Zero-Shot Learners (https://arxiv.org/pdf/2109.01652)
 
+Self-Consistency Improves Chain of Thought Reasoning in Language Models (https://arxiv.org/pdf/2203.11171)
+
 Constitutional AI: Harmlessness from AI Feedback (https://arxiv.org/pdf/2212.08073)
 
 Humanity's Last Exam (https://arxiv.org/pdf/2501.14249)
