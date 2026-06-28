@@ -98,6 +98,15 @@ Efficient Attention Mechanisms for Large Language Models: A Survey (https://arxi
 https://vladfeinberg.com/assets/2025-04-24-princeton-talk.pdf 
 
 
+GLM 5 Series from Z.ai
+
+https://arxiv.org/abs/2602.15763
+
+https://z.ai/blog/glm-5.1
+
+https://z.ai/blog/glm-5.2
+
+
 JAX Exercises
 
 https://docs.jax.dev/en/latest/notebooks/thinking_in_jax.html (tutorial)
