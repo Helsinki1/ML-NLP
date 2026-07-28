@@ -6,6 +6,8 @@ GPT-2 paper (https://cdn.openai.com/better-language-models/language_models_are_u
 
 GPT-3 paper (Language Models are Few-Shot Learners, https://arxiv.org/abs/2005.14165)
 
+GPT-4 / MoE paper (Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer, https://arxiv.org/abs/1701.06538)
+
 RL - PPO & GRPO Blog (https://yugeten.github.io/posts/2025/01/ppogrpo/)
 
 DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (https://arxiv.org/pdf/2501.12948)
