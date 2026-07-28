@@ -2,6 +2,23 @@ Attention is All You Need (https://papers.nips.cc/paper_files/paper/2017/file/3f
 
 Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer - T5 (https://arxiv.org/pdf/1910.10683)
 
+GPT-2 paper (https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+
+GPT-3 paper (Language Models are Few-Shot Learners, https://arxiv.org/abs/2005.14165)
+
+RL - PPO & GRPO Blog (https://yugeten.github.io/posts/2025/01/ppogrpo/)
+
+DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (https://arxiv.org/pdf/2501.12948)
+
+
+- [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
+- [The Illustrated Transformer (general Transformer guide)](https://jalammar.github.io/illustrated-transformer/)
+
+https://arxiv.org/html/2412.19437v1
+
+https://api-docs.deepseek.com/news/news260424 
+
+
 Rethinking the role of demonstrations: What makes in-context learning work? (https://arxiv.org/pdf/2202.12837)
 
 Finetuned Language Models are Zero-Shot Learners (https://arxiv.org/pdf/2109.01652)
@@ -28,21 +45,8 @@ Alignment Whack-a-Mole: Finetuning Activates Verbatim Recall of Copyrighted Book
 
 Fine-Tuning LLMs to Be Better Tutors (RL w dynamic reward weights & simulated students+tutors) (https://aclanthology.org/2025.emnlp-main.15.pdf)
 
-DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (https://arxiv.org/pdf/2501.12948)
-
-RL - PPO & GRPO Blog (https://yugeten.github.io/posts/2025/01/ppogrpo/)
-
-GPT-2 paper (https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
-
 AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical Knowledge (https://arxiv.org/pdf/2504.01538)
 
-- [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
-- [The Illustrated Transformer (general Transformer guide)](https://jalammar.github.io/illustrated-transformer/)
-
-
-https://arxiv.org/html/2412.19437v1
-
-https://api-docs.deepseek.com/news/news260424 
 
 
 Mechanistic Interpretability
@@ -112,3 +116,6 @@ JAX Exercises
 https://docs.jax.dev/en/latest/notebooks/thinking_in_jax.html (tutorial)
 
 https://jax-ml.github.io/scaling-book/ (exercises)
+
+
+From GPT-2 to Kimi 3 (https://x.com/waterloo_intern/status/2081762065392541951?s=51)
