@@ -104,6 +104,9 @@ Efficient Attention Mechanisms for Large Language Models: A Survey (https://arxi
 https://vladfeinberg.com/assets/2025-04-24-princeton-talk.pdf 
 
 
+Modern GPU Programming For MLSys https://mlc.ai/modern-gpu-programming-for-mlsys/#
+
+
 GLM 5 Series from Z.ai
 
 https://arxiv.org/abs/2602.15763
