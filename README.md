@@ -2,7 +2,7 @@ Inference: The Scaling Book (JAX), The Ultra-Scale Playbook (PyTorch)
 
 Pre-Training: Stanford 336
 
-Post-Training: RLHF by Nathan Lambert. Prime Intellect's Verifiers + Environments Hub
+Post-Training: RLHF by Nathan Lambert (https://rlhfbook.com). Prime Intellect's Verifiers + Environments Hub
 
 Distributed Computing: Designing Data Intensive Applications
 
