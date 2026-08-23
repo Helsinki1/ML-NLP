@@ -1,3 +1,13 @@
+Inference: The Scaling Book (JAX), The Ultra-Scale Playbook (PyTorch)
+
+Pre-Training: Stanford 336
+
+Post-Training: RLHF by Nathan Lambert. Prime Intellect's Verifiers + Environments Hub
+
+Distributed Computing: Designing Data Intensive Applications
+
+---
+
 Attention is All You Need (https://papers.nips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 
 Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer - T5 (https://arxiv.org/pdf/1910.10683)
@@ -11,7 +21,6 @@ GPT-4 / MoE paper (Outrageously Large Neural Networks: The Sparsely-Gated Mixtur
 RL - PPO & GRPO Blog (https://yugeten.github.io/posts/2025/01/ppogrpo/)
 
 DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (https://arxiv.org/pdf/2501.12948)
-
 
 - [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
 - [The Illustrated Transformer (general Transformer guide)](https://jalammar.github.io/illustrated-transformer/)
