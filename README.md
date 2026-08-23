@@ -1,5 +1,3 @@
----
-
 Inference: The Scaling Book (JAX), The Ultra-Scale Playbook (PyTorch)
 
 Pre-Training: Stanford 336
