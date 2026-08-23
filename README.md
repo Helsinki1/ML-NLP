@@ -1,3 +1,5 @@
+---
+
 Inference: The Scaling Book (JAX), The Ultra-Scale Playbook (PyTorch)
 
 Pre-Training: Stanford 336
@@ -29,6 +31,9 @@ https://arxiv.org/html/2412.19437v1
 
 https://api-docs.deepseek.com/news/news260424 
 
+Rethinking the role of demonstrations: What makes in-context learning work? (https://arxiv.org/pdf/2202.12837)
+
+---
 
 Multi-Agent Systems
 
@@ -44,6 +49,54 @@ Emergent Social Conventions and Bias in LLM Popuplations (https://researchprofil
 
 Algorithmic Collusion by LLMs (https://arxiv.org/abs/2404.00806)
 
+---
+
+AI Kernels, custom programming languages, from Triton to CUDA to ThunderKittens + Tiles, DSL, flash-attention, quantization
+
+https://arxiv.org/abs/2410.20399 
+
+https://arxiv.org/abs/2603.05451 
+
+https://docs.nvidia.com/cutlass/latest/media/docs/pythonDSL/cute_dsl.html 
+
+https://arxiv.org/abs/2208.07339 
+
+https://arxiv.org/abs/2404.14469 
+
+https://arxiv.org/abs/2510.06189 
+
+Cursor Mixture of Kittens (https://cursor.com/blog/mixture-of-kittens)
+
+Efficient Attention Mechanisms for Large Language Models: A Survey (https://arxiv.org/abs/2507.19595?utm_source=chatgpt.com)
+
+https://vladfeinberg.com/assets/2025-04-24-princeton-talk.pdf 
+
+
+C/CUDA Tutorial (https://github.com/karpathy/llm.c)
+
+
+Modern GPU Programming For MLSys https://mlc.ai/modern-gpu-programming-for-mlsys/#
+
+
+JAX Exercises
+
+https://docs.jax.dev/en/latest/notebooks/thinking_in_jax.html (tutorial)
+
+https://jax-ml.github.io/scaling-book/ (exercises)
+
+---
+
+GLM 5 Series from Z.ai
+
+https://arxiv.org/abs/2602.15763
+
+https://z.ai/blog/glm-5.1
+
+https://z.ai/blog/glm-5.2
+
+From GPT-2 to Kimi 3 (https://x.com/waterloo_intern/status/2081762065392541951?s=51)
+
+---
 
 Mechanistic Interpretability
 
@@ -73,62 +126,13 @@ https://transformer-circuits.pub/2025/attribution-graphs/biology.html
 
 https://transformer-circuits.pub/2025/attribution-graphs/methods.html
 
+---
+
+Miscellaneous 
 
 Instant LLM Updates with Doc-to-LoRA and Text-to-LoRA
 
 https://pub.sakana.ai/doc-to-lora/ 
-
-
-AI Kernels, custom programming languages, from Triton to CUDA to ThunderKittens + Tiles, DSL, flash-attention, quantization
-
-https://arxiv.org/abs/2410.20399 
-
-https://arxiv.org/abs/2603.05451 
-
-https://docs.nvidia.com/cutlass/latest/media/docs/pythonDSL/cute_dsl.html 
-
-https://arxiv.org/abs/2208.07339 
-
-https://arxiv.org/abs/2404.14469 
-
-https://arxiv.org/abs/2510.06189 
-
-Cursor Mixture of Kittens (https://cursor.com/blog/mixture-of-kittens)
-
-Efficient Attention Mechanisms for Large Language Models: A Survey (https://arxiv.org/abs/2507.19595?utm_source=chatgpt.com)
-
-https://vladfeinberg.com/assets/2025-04-24-princeton-talk.pdf 
-
-
-C/CUDA Tutorial (https://github.com/karpathy/llm.c)
-
-
-Modern GPU Programming For MLSys https://mlc.ai/modern-gpu-programming-for-mlsys/#
-
-
-GLM 5 Series from Z.ai
-
-https://arxiv.org/abs/2602.15763
-
-https://z.ai/blog/glm-5.1
-
-https://z.ai/blog/glm-5.2
-
-
-JAX Exercises
-
-https://docs.jax.dev/en/latest/notebooks/thinking_in_jax.html (tutorial)
-
-https://jax-ml.github.io/scaling-book/ (exercises)
-
-
-From GPT-2 to Kimi 3 (https://x.com/waterloo_intern/status/2081762065392541951?s=51)
-
-
-
-Miscellaneous 
-
-Rethinking the role of demonstrations: What makes in-context learning work? (https://arxiv.org/pdf/2202.12837)
 
 Finetuned Language Models are Zero-Shot Learners (https://arxiv.org/pdf/2109.01652)
 
